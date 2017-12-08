@@ -1,3 +1,9 @@
+2017-12-07  Andrew Waterman  <andrew@sifive.com>
+
+	* config/riscv/riscv.c (TARGET_ASM_SELECT_SECTION): New define.
+	(TARGET_HAVE_SRODATA_SECTION): New define.
+	(riscv_select_section): New function.
+
 2017-12-04  Jim Wilson  <jimw@sifive.com>
 
 	* config/riscv/riscv.c (riscv_for_each_saved_reg): Use GP_REG_LAST
