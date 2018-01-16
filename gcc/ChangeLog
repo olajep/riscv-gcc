@@ -1,3 +1,9 @@
+2018-01-15  Andrew Waterman  <andrew@sifive.com>
+
+	* config/riscv/riscv.c (riscv_rtx_costs) <MULT>: Increase cost if
+	!TARGET_MUL.
+	<UDIV>: Increase cost if !TARGET_DIV.
+
 2017-12-07  Andrew Waterman  <andrew@sifive.com>
 
 	* config/riscv/riscv.c (TARGET_ASM_SELECT_SECTION): New define.
